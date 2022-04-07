@@ -22,7 +22,8 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-funcion atrib(VALOR = 10) {
+funcion atrib() {
+  VALOR = 10;
   return 'O valor da variável agora é ' + VALOR + ' .';
   }
 
